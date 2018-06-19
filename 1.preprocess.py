@@ -89,12 +89,12 @@ if __name__ == "__main__":
     list_fre = [i/sum(list_frequency) for i in list_frequency]
     combinations_fre = [i/sum(list_frequency) for i in combinations_frequency]
     
-# =============================================================================
-#     utils.save_pickle('list_name.txt', list_name)
-#     utils.save_pickle('list_fre.txt', list_fre)
-#     utils.save_pickle('combinations_list.txt', combinations_list)
-#     utils.save_pickle('combinations_fre.txt', combinations_fre)
-# =============================================================================
+
+    utils.save_pickle('list_name.txt', list_name)
+    utils.save_pickle('list_fre.txt', list_fre)
+    utils.save_pickle('combinations_list.txt', combinations_list)
+    utils.save_pickle('combinations_fre.txt', combinations_fre)
+
 # =============================================================================
 #     list_1 = []
 #     for item in data['处方（处理）']:
